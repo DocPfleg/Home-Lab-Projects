@@ -1,0 +1,30 @@
+02/22/2022 - Today's Project: Setting up ParrotOS on VirtualBox
+
+- Process is virtually the same (har har) as setting up Kali, but with an .iso file instead of an .ova file.
+
+- Booted into the .iso just fine.
+
+- Everything was going nice and smooth until I reached the install screen inside the VM. Installation hung at 68%.
+     - Looks like the process running at the bottom of the install screen is /usr/bin/bootloader-config
+
+- Deleted VM and started over.
+
+- Ran into the same problem, again.
+     - There's only one troubleshooting article on the ParrotOS site, and it has to do with getting the GRUB bootloader to play nice:
+     - https://www.parrotsec.org/docs/troubleshooting-grub.html
+     - Let's give it a try!
+
+- Welp, that didn't work. Not sure what the holdup is. Not seeing any chatter about it on the interwebs. Will have to look into it more some other time.
+
+- Time to install VMWare Workstation and see if I have more luck, there.
+
+- First thoughts on VMWare: Seems more professional and full-featured, compared to VirtualBox.
+     - After using only VirtualBox for a couple of months, I think I might like VMWare more, already.
+     - For one thing, it seems WAY faster. Also, I was able to use way more GPU memory (up to 8GB?!)
+
+- Success! VMWare for the win. It looked like it was going to hang at the same place (68%), but after a few minutes it jumped ahead and finished.
+
+- This was fun. I might just use VMWare exclusively from now on...
+     - Time to create a Kali VM and see if I like it better.
+     - I was having a lot of trouble getting the most recent release of Kali to keep it's resolution settings in VirtualBox.
+     
