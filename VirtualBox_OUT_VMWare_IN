@@ -1,0 +1,18 @@
+02/23/2022
+
+- Decided to migrate all my VMs to VirtualBox.
+  - Looks like the free version doesn't allow importing of machines from VB to VMWare. We'll do this the old-fashioned way!
+
+- Downloaded newest VMWare VM of Kali.
+  - I was having issues getting VB to recognize my display settings when I was using it, so this is a welcome change.
+  - Things look, feel, and run way better on VMWare. So good to know!
+
+- Got things running with no issues.
+
+- Also decided to redownload the packet-decoding VM that I got from Antisyphon, so I could try those commands that weren't working for me during class.
+  - I was having a hard time getting tcpdump to listen to my host, or getting hping3 to send FIN packets to the host.
+  - Couldn't figure out why. Maybe it was an issue with VB all along...
+
+- Ran updates on my VMs via the command line. Why is that so fun?
+
+- 
