@@ -1,0 +1,14 @@
+02/24/2022
+
+- This will be the second of five projects taken from Josh Madakor's YouTube Channel: https://www.youtube.com/watch?v=P9wz0Sted_I
+  - This is the video of the actual tutorial that I am following: https://www.youtube.com/watch?v=MHsI8hJmggI
+  - I will be providing commentary and walk-thru as proof of completing this project.
+
+- This will give me experience in the following areas:
+  - Active Directory Administration
+    - PowerShell: automated provisioning, maintaining, and deprovisioning of user accounts
+  - Setting up Remote Access Server (RAS) features to support NAT/PAT
+  - Implementation and maintenance of Windows DNS and DHCP servers
+  - Configuration of Windows File Servers with implementation of quotas and NTFS permissions
+  
+ 
